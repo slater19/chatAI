@@ -47,7 +47,7 @@ const Home = () => {
 }, [scrollToBottom]);
    
 return (
-  <Stack height={'100vh'} justifyContent= {'space-evenly'}  sx={{background: 'linear-gradient(to right bottom, #36EAEF, #6B0AC9)',} }>
+  <Stack height={'100vh'} justifyContent= {'space-evenly'}  sx={{background: 'linear-gradient( #F9FaFa 60%, #EDE4FF)',} }>
   {/* <Navbar/> */}
   {/* <Box  p={{ xs: .5, md: 3 }}  pb={{ xs: 1, md: 3 }}   > */}
   {chat.length==0 && <InitialChat generatedResponse={generatedResponse}/> }

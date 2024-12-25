@@ -2,7 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 // import BOTAI from './BOTAI.js'
 import React, { useMemo,useState,useEffect } from 'react';
-import Grid from '@mui/material/Grid2';
+import Grid from '@mui/material/Grid';
 import {
   
   createTheme,

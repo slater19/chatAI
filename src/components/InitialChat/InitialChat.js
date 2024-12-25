@@ -10,6 +10,8 @@ const InitialChat = ({generatedResponse }) => {
   const initialdata=[
     {heading:"Hi,what is the weather",subtext:"Getimmmediate Ai generated response"
     },
+    {heading:"Hi,what is the location",subtext:"Getimmmediate Ai generated response"},
+    {heading:"Hi,what is the location",subtext:"Getimmmediate Ai generated response"},
     {heading:"Hi,what is the location",subtext:"Getimmmediate Ai generated response"}
     ] 
   return (
