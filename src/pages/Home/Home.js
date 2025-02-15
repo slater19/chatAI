@@ -51,7 +51,7 @@ return (
   {/* <Navbar/> */}
   {/* <Box  p={{ xs: .5, md: 3 }}  pb={{ xs: 1, md: 3 }}   > */}
   {chat.length==0 && <InitialChat generatedResponse={generatedResponse}/> }
-  {chat.length>0 && (<Stack height={1} flexGrow={0} p={{xs:2,md:3}}   sx={{background: 'linear-gradient(to right bottom, #36EAEF, #6B0AC9)',} }
+  {chat.length>0 && (<Stack height={1} flexGrow={0} p={{xs:2,md:3}}  s
   ref={listref}
   >
     {chat.map((item, index) => (

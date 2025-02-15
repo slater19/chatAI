@@ -3,7 +3,7 @@ import { Box , Select, MenuItem ,Typography} from '@mui/material';
 
 import React, { useEffect, useState ,useRef} from "react";
 import FeedbackModal from "../../components/FeedbackModal/FeedbackModal";
-import InitialChat from "../../components/InitialChat/InitialChat";
+
 import ChatInput from "../../components/ChatInput/ChatInput";
 import ChattingCard from "../../components/ChattingCard/ChattingCard";
 // import { ThemeContext } from "../../theme/themeContext";
